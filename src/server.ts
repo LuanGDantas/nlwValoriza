@@ -9,7 +9,7 @@ import "./database";
 const app = express();
 //middleware que pega a requisição e habilita o json para realizar as requisições
 app.use(express.json());
-//middleware que injeta as rotas
+//middleware que injeta as rotas no express
 app.use(router);
 
 app.use(
