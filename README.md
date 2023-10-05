@@ -30,21 +30,33 @@ Por fim, a aplicação estará disponível em `http://localhost:3000`.
 
 `POST - /users`
 
+![Teste no Insomnia da rota de Criar Usuário](.github/teste_endpoint_criar_user.jpg)
+
 ### Realizar Login
 
 `POST - /login `
+
+![Teste no Insomnia da rota de Realizar login](.github/teste_endpoint_realizar_login.jpg)
 
 ### Criar Tag
 
 `POST - /tags` 
 
+![Teste no Insomnia da rota de Criar Tag](.github/teste_endpoint_criar_tag.jpg)
+
 ### Criar Elogio
 
 `POST - /compliments`
 
-### Listar Elogios Recebidos de um Usuario
+![Teste no Insomnia da rota de Criar Elogio](.github/teste_endpoint_criar_elogio.jpg)
 
-`GET - /users/complements/receive`
+### Listar Elogios Recebidos do Usuario logado
 
-### Listar Elogios Enviados de um Usuário
-`GET - /users/complements/send`
+`GET - /users/compliments/receive`
+
+![Teste no Insomnia da rota de Listar Elogios enviados](.github/teste_endpoint_listar_elogios_recebidos.jpg)
+
+### Listar Elogios Enviados do Usuário logado
+`GET - /users/compliments/send`
+
+![Teste no Insomnia da rota de Listar Elogios enviados](.github/teste_endpoint_listar_elogios_enviados.jpg)
